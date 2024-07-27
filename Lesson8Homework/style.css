@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: rgb(107, 170, 142);
+    
+}
+
+
+h1  {
+
+    font-family: "Roboto Condensed", sans-serif;
+    color: rgba(0, 0, 0, 0.706);
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.308);
+}
+
+
+
+.HeaderPhotos img {
+    height: 250px;
+    width: 350px;
+    border-radius: 10%;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    
+    
+}
+
+
+
+.HeaderPhotos {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px;
+  
+    
+}
+
+.HeaderPhotos img:hover {
+
+  transform:rotate(20deg);
+  height: 350px;
+  width: 450px;
+  
+
+
+}
+
+.TopNav {
+
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+    font-family: "Roboto Condensed", sans-serif;
+    background-color:rgb(21, 92, 60);
+    
+}
+
+.TopNav a {
+    color: rgba(224, 219, 219, 0.706);
+    font-size: 20px;
+}
+
+.TopNav a:hover{
+    color: rgba(224, 219, 219, 0.255);
+   
+}
+
+#Mainphoto {
+    height: 200px;
+    width: 300px;
+}
+
+#mainp {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    
+}
+
+#Tourlink {
+    text-decoration:wavy;
+    color: rgb(15, 36, 30);
+    font-size: 25px;
+    font: italic;
+
+
+}
+
+#Tourlink:hover{
+
+    color: rgb(43, 111, 91);
+   text-decoration: none;
+
+    
+
+
+}
+
+
+
+.MainCenterDiv {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+   
+    }
+
+.Table1 {
+    border: solid 2px black;
+    border-radius: 5%;
+}
+
+.Table1 tr td {
+    border: solid 1px black;
+    padding: 10px;
+
+}
+
+.Table2 {
+    border:groove 3px rgba(1, 32, 7, 0.552);
+    border-radius: 2%;
+}
+
+.Table2 tr td {
+    border: solid 1px black;
+    padding: 10px;
+}
+
+.tabledivwrap {
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Table1 tr th {
+    color: white;
+
+}
+
+.Table2 tr th {
+    color: white;
+
+}
+
+.Table2 tr td:hover{
+    cursor: pointer;
+    background-color:rgb(60, 85, 74);
+}
+
+.Table1 tr td:hover{
+    cursor: pointer;
+    background-color:rgb(60, 85, 74);
+}
+
+h5 {
+    font-weight: bolder;
+    font-family: "Roboto Condensed", sans-serif;
+    color: rgba(0, 0, 0, 0.706);
+    font-size: 25px;
+    margin-left: 15px;
+ 
+}
+
+
+.FooterWrapper {
+
+    
+   background-color: rgb(58, 106, 82);
+   position: relative;
+   top: 50px;
+
+    
+}
+
+.TopPartFoot {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.IconMenuFoot i {
+
+    font-size: 20px;
+    width: 30px;
+   
+}
+
+.Linefoot {
+
+    width:100%;
+    height: 3px;
+    background-color: black;
+    
+}
+
+
+h4 , h6 , h2 , h3  {
+
+    font-family: "Roboto Condensed", sans-serif;
+    color: rgba(0, 0, 0, 0.706);
+    font-size: 20px;
+
+}
+
+.CompanyLine {
+ 
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ 
+
+    
+}
+
+.NavMenuFoot2 a , .NavMenuFoot a , .NavMenuFoot3 a {
+
+    
+    display: flex;
+    flex-direction:row;
+    font-family: "Roboto Condensed", sans-serif;
+    color: rgba(0, 0, 0, 0.706);
+    text-decoration: none;
+    align-items: center;
+    
+    
+
+}
+
+.InputButt {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+input {
+
+border:none;
+height: 30px;
+width: 200px;
+
+}
+
+
+
+button {
+  
+    position:relative;
+    top: 20px;
+    color: white;
+    background-color: rgb(17, 63, 17);
+    border: none;
+
+
+}
+
+h6 {
+    position: sticky;
+}
+
+.Serviceswrapper {
+
+    position: relative;
+    bottom: 20px;
+}
+
+.ReviewsWrapper {
+
+    position: relative;
+    top: 10px;
+}
+
+.NavMenuFoot4 {
+
+    position: relative;
+    bottom: 12px;
+}
+
+.NavMenuFoot2 a:hover {
+    color: white;
+}
+
+    
+.NavMenuFoot3 a:hover {
+    color: white;
+}
+
+.NavMenuFoot a:hover {
+    color: white;
+}
+
