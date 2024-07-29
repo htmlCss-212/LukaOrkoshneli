@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?f70amily=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    background-color: #ADBBDA;
+    padding: 0;
+    margin: 0;
+}
+
+.WebsiteName {
+
+font-family: "Roboto Condensed", sans-serif;
+font-optical-sizing: auto;
+display: flex;
+align-items: center;
+padding: 0%;
+margin-left: 1%;
+position: relative;
+  
+}
+
+.NavMenuWrapper  a {
+  
+font-family: "Poppins", sans-serif;
+font-weight: 100;
+font-style: normal;
+text-decoration: none;
+color:#3D52A0;
+font-weight: bold;
+margin-right: 20px;
+font-size: 25px;
+
+
+
+
+}
+
+.TopHeaderPart {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+
+.NavMenuWrapper {
+  
+    background-color: #8697C4;
+    align-items: center;
+    margin-top: 6%;
+    border-radius: 15%;
+    
+    
+}
+
+.WebsiteText {
+
+    position:absolute;
+    top: 70%;
+    left: 20%;
+}
+
+.NavMenuWrapper  a:hover {
+
+  background-color: #3d4e8b;
+  color:  #bfc6e0;
+  cursor: pointer;
+  border-radius: 15%;
+}
+
+
+.PhotoWrapper {
+
+    background-image:url(./images/1.webp);
+    width:100%;
+    height: 450px;
+    margin-top: 2%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.PhotoWrapper p {
+    color: white;
+    font-size: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+    position: relative;
+    bottom: 3%;
+}
+
+#IntroText {
+
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    padding: 2%;
+    color:rgb(13, 13, 16)
+
+}
+
+.VisualColumn {
+    flex-shrink: 0;
+    margin: 0;
+    padding: 10px 15px;
+    min-width: 100%;
+    white-space: nowrap;
+    animation-name: VisualColumn;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #3D52A0;
+    
+  }
+
+  @keyframes VisualColumn {
+    from {
+      transform: translateX(0);
+    }
+    
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .MainWrapper {
+    padding: 2%;
+  }
+
+  .MainWrapper p {
+
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    color:rgb(13, 13, 16)
+  }
+
+  h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+  }
+
+  .MainPhotosWrapper img  {
+
+    height: 250px;
+    width: 300px;
+    border-radius: 10%;
+    
+}
+
+.MainPhotosWrapper {
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.MainPhotosWrapper img:hover {
+
+   border: 2px solid #203774;
+}
+
+.WebsiteName {
+
+    margin-left: 2%;
+}
+
+.MainFooterWrapper {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 4%;
+   background-color: #9fb0db
+}
+.InfoColumn a 
+{
+    display: flex;
+    height: 50px;
+}
+
+.FooterFirstPart {
+display: flex;
+flex-direction: column;
+width: 20%;
+margin-right: 30%;
+
+}
+
+.FooterNameAndLogo {
+
+    display: flex;
+    align-items: center;
+   
+    
+}
+
+
+h1  {
+font-family: "Roboto Condensed", sans-serif;
+font-optical-sizing: auto;
+}
+
+.InfoColumn a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+    color:#3D52A0;
+    font-weight: bold;
+
+}
+
+h3 {
+font-family: "Roboto Condensed", sans-serif;
+font-optical-sizing: auto;
+text-decoration: underline;
+}
+
+h3:hover {
+    cursor: pointer;
+    padding: 4%;
+
+}
+
+.InfoColumn a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+.FooterIcons i{
+
+    font-size: 30px;
+    background-color: #6b7aa5;
+    border-radius: 10%;
+}
+
+.FooterIcons i:hover {
+
+    padding: 3%;
+    border: 2px dotted rgb(212, 212, 248);
+    cursor: pointer;
+}
+
+.FooterLine {
+
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    color:rgb(13, 13, 16);
+    font-weight: bolder;
+
+}
+
+.FooterLine p:hover {
+
+    color: rgb(210, 219, 250);
+    text-decoration: underline;
+}
