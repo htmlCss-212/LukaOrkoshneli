@@ -1,0 +1,277 @@
+@font-face {
+    font-family: LatoFont;
+    src: url(./fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Mont;
+    src: url(./fonts/MontserratAlternates-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: NavFont;
+    src: url(./fonts/Oswald-VariableFont_wght.ttf);
+}
+:root {
+    --Font: "LatoFont" , "Sans-serif";
+    --SecondFont: "Mont", "Sans-serif";
+    --HSize: 30px;
+    --Hcolor: #e6dbc3;
+    --PColor : #5b4739;
+    
+   
+    
+}
+
+
+body {
+    background-color: #AC8968;
+    
+}
+
+h1 {
+
+  font-family:var(--Font);
+  font-size:var(--HSize);
+  color: var(--Hcolor);
+  
+}
+
+.Navline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    margin-left: 2%;
+    
+}
+
+.NavMenuWrapper a {
+    text-decoration: none;
+    color:#3e2a18;
+    font-family: NavFont, sans-serif;
+    font-weight: 400;
+    width: 100px;
+    font-size: 20px;
+    
+    
+}
+
+.HeaderWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NavMenuWrapper {
+
+   display: flex;
+   
+
+}
+
+.NavMenuWrapper a:hover {
+
+    cursor: pointer;
+    background-color: #765c44;
+    border-radius: 10px;
+    text-decoration: underline;
+} 
+
+.PhotoSlider img {
+
+    width: 400px;
+    height: 300px;
+    
+
+}
+
+.Photoslider {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Photoslider {
+
+    animation-name: Photoslider;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+    margin-top: 4%;
+    
+
+}
+
+@keyframes Photoslider {
+
+    0% {
+        transform: translateX(0px)
+      }
+      25% {
+        transform: translateX(-200px)
+      }
+      50% {
+        transform: translateX(-400px)
+      }
+      75% {
+        transform: translateX(-600px)
+      }
+      100% {
+        transform: translateX(-800px)
+      }
+}
+
+h2 {
+    color: var(--Hcolor);
+    font-family: var(--Font);
+    
+}
+
+h2::first-letter {
+
+ color: #3e2a18;
+}
+
+.ArticleWrapper {
+
+    padding: 2%;
+    
+}
+
+.ArticleWrapper p {
+    font-family: var(--SecondFont);
+    color: var(--PColor);
+}
+
+.ArticleWrapper p:hover::after {
+    content: "Books Not Guns, Culture Not Violence";
+    color: #34291f;
+
+}
+
+.LinkWrapper a {
+
+    text-decoration: none;
+    font-family:var(--Font);
+    font-size: 17px;
+    color: #483f38
+}
+
+.LinkWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    
+}
+
+.LinkWrapper a:hover {
+    text-decoration: underline;
+    font-size: 20px;
+    color:#34291f;
+}
+
+#outrop {
+
+    font-family: var(--SecondFont);
+    color: var(--PColor);
+    margin-top: 5%;
+    padding: 10px;
+    margin-left: 2%;
+
+}
+
+#outrop::first-line{
+    text-decoration: underline;
+    color:var(--Hcolor);
+}
+
+.FooterWrapper {
+    background-color:#9f8169;
+    
+  
+}
+
+.FooterWrapper a  {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    text-decoration: none;
+    color: var(--PColor);
+    font-family: var(--SecondFont);
+    font-weight: bolder;
+}
+
+.FooterMainDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.FooterWrapper a:hover {
+
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+
+h3 {
+
+    color: var(--Hcolor);
+    font-family: var(--Font);
+}
+
+#LabelID {
+
+    font-family: var(--SecondFont);
+    color:var(--PColor);
+    font-weight: bold;
+}
+
+#InputStyle {
+
+    border:none;
+    height: 30px;
+    border-radius: 3%;
+    background-color: #e6dbc3;
+    
+    
+}
+
+.InputDivWrapper {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#Butt {
+
+    height: 40px;
+    width: 70px;
+    align-self: center;
+    color: var(--PColor);
+    font-family: var(--Font);
+    font-weight: bolder;
+    background-color: #b49680;
+    border: none;
+
+}
+
+#Butt:hover {
+
+    cursor: pointer;
+    background-color: #c79b7c;
+    color:bisque
+}
+
+#InputStyle:hover {
+
+   background-color: #c9ac97;
+}
