@@ -1,0 +1,571 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+@font-face {
+    font-family: MainHFont;
+    src: url(./fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: PFont;
+    src: url(./fonts/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: HeaderFont;
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+
+
+
+
+:root {
+
+    --MainHFont: "MainHFont", "Sans-serif";
+    --PFont: "PFont", "Sans-serif" ; 
+    --HeaderFont: "HeaderFont", "Sans-serif" ; 
+    --backgroundcolor: #F2F2F2;
+    --MainHColor: #2477BF;
+    --HeaderColor: #F26101;
+    --Pcolor: #012340;
+
+}
+
+body { 
+    padding: 1%;
+    background-image: url(./images/BackgroundPhoto.jpeg);
+}
+
+
+
+.HomepageTitle {
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  
+    
+}
+
+.TopNavMenu {
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #f7f4cf;
+}
+
+.HomepageTopNav a {
+  
+    text-decoration: none;
+    font-family:  var(--HeaderFont);
+    color: var(--HeaderColor);
+    font-size: 17px;
+    width: 95px;
+    
+    
+}
+
+.HomepageTopNav {
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    
+}
+
+h1 {
+
+    font-family: var(--MainHFont);
+    color: var(--MainHColor);
+
+}
+
+#HeaderIcon {
+
+    font-size: 30px;
+    
+}
+
+.HomepageTopNav a:hover {
+  
+    text-decoration: underline;
+    color:#964007;
+    cursor: pointer;
+    
+}
+
+.HomepageMainPhoto {
+    background-image: url(./images/first\ photo.jpeg);
+}
+
+.HeaderTitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+#HeaderTitleSubtitle {
+
+    color: var(--Pcolor);
+    font-family: var(--PFont);
+    font-size: 17px;
+}
+
+#HeaderTitle {
+
+    color: var(--HeaderColor);
+    font-family: var(--HeaderFont);
+}
+
+#MainHomepageText {
+
+    color: var(--Pcolor);
+    font-family: var(--PFont);
+}
+
+.HomepagePhotosAlbum {
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 3%;
+   
+}
+
+.HomepagePhotosAlbum img {
+    height: 250px;
+    width: 350px;
+    border-radius: 2%;
+    
+
+    
+}
+
+.HomepagePhotosAlbum img:hover {
+    border: solid 2px var(--HeaderColor);
+    
+   
+}
+
+.HomepageArticleSection {
+    margin-top: 3%;
+}
+
+#HomepageArtictleHeader {
+    color: var(--HeaderColor);
+    font-family: var(--HeaderFont);
+
+}
+
+#HomepageArtictleHeader::first-letter {
+    color: var(--MainHColor);
+}
+
+#HomepageArticleP {
+    color: var(--Pcolor);
+    font-family: var(--PFont);
+}
+
+.TopFooterWrap {
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    
+}
+
+#HomepageFooterH {
+    color: var(--MainHColor);
+    font-family: var(--HeaderFont);
+}
+
+.HomepageFooterWrapper p {
+    color: var(--Pcolor);
+    font-family: var(--PFont);
+}
+
+.FooterLastLine {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    
+}
+
+.HomepageFooterWrapper {
+    background-color:#f7f4cf;
+    margin-top: 4%;
+}
+
+.FooterIconsWrap i {
+
+    font-size:25px;
+
+}
+
+.FooterIconsWrap i:hover {
+
+    border: dotted 2px var(--HeaderColor);
+    cursor: pointer;
+}
+
+.AboutUsMainPart {
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: solid 2px rgba(40, 136, 240, 0.493);
+    background-color: #c0e1ffbc;
+    margin-top: 2%;
+    padding: 2%;
+}
+
+#AboutUsH {
+    color: var(--MainHColor);
+    font-family: var(--MainHFont);
+    text-shadow: 2px 2px  #063863;
+    
+}
+
+#AboutUsSubtitle {
+
+    color: var(--HeaderColor);
+    font-family: var(--HeaderFont);
+    text-shadow: 1px 1px #853907;
+}
+
+.AboutUsMainPart p {
+
+  color: var(--Pcolor);
+  font-family: var(--PFont);
+}
+
+.ContactUsMainWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #8fb7d9;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #c4daf0;
+    opacity: 70%;
+    margin-top: 3%;
+}
+
+#ContactUsH {
+    color: var(--HeaderColor);
+    font-family: var(--MainHFont)
+
+}
+
+.ContacUsIconWrapper i {
+    color: white;
+    font-size: 25px;
+    
+}
+
+.ContacUsIconWrapper {
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 150px;
+    
+}
+
+.ContacUsIconWrapper i:hover {
+    padding: 3%;
+    color: #F26101;
+    cursor: pointer;
+}
+
+.InputFieldWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+    margin-top: 4%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.InputFieldWrapper input {
+ 
+    height: 30px;
+    width: 200px;
+    border: solid 1px var(--MainHColor);
+    text-decoration: none;
+
+}
+
+.InputFieldWrapper input:hover {
+   cursor: pointer;
+}
+
+.InputFieldWrapper input:focus {
+    height: 35px;
+    width: 250px;
+}
+
+#ContactUsTextArea {
+
+    height: 50px;
+}
+
+#ContactUsButt {
+
+
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: var(--PFont);
+    background-color: var(--HeaderColor);
+    color:white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 2%;
+    
+}
+
+#ContactUsButt:hover {
+    color:var(--MainHColor);
+    
+}
+
+.ServicesWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 20px;
+}
+
+.Service {
+    background-color: white;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.Service h2 {
+    color:var(--MainHColor);
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: var(--HeaderFont);
+}
+
+.Service p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: var(--PFont);
+}
+
+
+#ServiceButt {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #2a5685;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+#ServiceButt:hover {
+    background-color: rgba(121, 168, 250, 0.737);
+    -webkit-transform : translateY(-2px);
+        -ms-transform : translateY(-2px);
+            transform : translateY(-2px);
+}
+
+#ServiceButt:active {
+    background-color: #004080;
+    
+}
+
+.BlogSectionWrapper {
+    padding: 20px;
+}
+
+.BlogSectionWrapper p {
+
+    font-family: var(--PFont);
+    color: var(--Pcolor);
+}
+
+.ArticleFBlog{
+    background-color: rgb(208, 223, 248);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.ArticleFBlog h2 {
+    color: var(--MainHColor);
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: var(--MainHFont);
+}
+
+
+
+
+
+#BlogArticleButt {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color:white;
+    background-color:var(--MainHColor);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: var(--PFont);
+    
+}
+
+#BlogArticleButt:hover {
+    background-color: #0056b3;
+    -webkit-transform: translateY(-2px);
+        -ms-transform: translateY(-2px);
+            transform: translateY(-2px);
+}
+
+#BlogArticleButt:active {
+    background-color: #004080;
+    
+}
+
+.TitleForBlogPage {
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+#SubtitleForBlogHeader {
+
+    font-family: var(--HeaderFont);
+    color: var(--HeaderColor);
+    font-weight: bold;
+}
+
+.BlogSectionWrapper h2::first-letter {
+    color:var(--HeaderColor)
+}
